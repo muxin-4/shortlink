@@ -1,8 +1,9 @@
 package com.yaya.shortlink.admin.controller;
 
-import com.yaya.shortlink.admin.common.convention.result.Results;
-import com.yaya.shortlink.admin.common.enums.UserErrorCodeEnum;
+import cn.hutool.core.bean.BeanUtil;
 import com.yaya.shortlink.admin.common.convention.result.Result;
+import com.yaya.shortlink.admin.common.convention.result.Results;
+import com.yaya.shortlink.admin.dto.resp.UserActualRespDTO;
 import com.yaya.shortlink.admin.dto.resp.UserRespDTO;
 import com.yaya.shortlink.admin.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -24,11 +25,11 @@ public class UserController {
      */
     @GetMapping("/api/shortlink/v1/user/{username}")
     public Result<UserRespDTO> getUserByUsername(@PathVariable("username") String username) {
-        UserRespDTO result = userService.getUserByUserName(username);
-        if(result == null) {
-            return new Result<UserRespDTO>().setCode(UserErrorCodeEnum.USER_NULL.code() ).setMessage(UserErrorCodeEnum.USER_NULL.message());
-        }else {
-            return Results.success(result);
-        }
+        return Results.success(userService.getUserByUserName(username));
+    }
+
+    @GetMapping("/api/shortlink/v1/actual/user/{username}")
+    public Result<UserActualRespDTO> getActualUserByUsername(@PathVariable("username") String username) {
+        return Results.success(BeanUtil.toBean(userService.getUserByUserName(username), UserActualRespDTO.class));
     }
 }
