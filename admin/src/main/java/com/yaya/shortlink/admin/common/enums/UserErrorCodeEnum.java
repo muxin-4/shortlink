@@ -1,4 +1,4 @@
-package com.yaya.shortlink.admin.common.convention.enums;
+package com.yaya.shortlink.admin.common.enums;
 
 import com.yaya.shortlink.admin.common.convention.errorcode.IErrorCode;
 

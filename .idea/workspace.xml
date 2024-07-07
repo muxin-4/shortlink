@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/enums/UserErrorCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/errorcode/BaseErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/errorcode/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/exception/AbstractException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/exception/ClientException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/exception/RemoteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/result/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/web/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/enums/UserErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/enums/UserErrorCodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/convention/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/convention/result/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ShortLinkAdminApllication.executor": "Run",
+    "Spring Boot.ShortLinkAdminApllication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/wangguanyu/wgy/3-java/shortlink",
@@ -129,7 +137,7 @@
       <updated>1720235191343</updated>
       <workItem from="1720235192370" duration="9742000" />
       <workItem from="1720281683873" duration="258000" />
-      <workItem from="1720282087149" duration="6195000" />
+      <workItem from="1720282087149" duration="10404000" />
     </task>
     <servers />
   </component>
@@ -138,5 +146,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/web/GlobalExceptionHandler.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/UserServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
