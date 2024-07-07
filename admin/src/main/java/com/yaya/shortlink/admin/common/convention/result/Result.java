@@ -1,4 +1,4 @@
-package com.yaya.shortlink.admin.convention.result;
+package com.yaya.shortlink.admin.common.convention.result;
 
 
 import lombok.Data;
