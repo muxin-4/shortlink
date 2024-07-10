@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 用户敏感信息接口返回脱敏">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/config/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/dto/req/UserRegisterReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/constant/RedisCacheConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/enums/UserErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/enums/UserErrorCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/dao/entity/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/common/enums/UserErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/common/enums/UserErrorCodeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/dao/entity/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/dao/entity/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +95,7 @@
       <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yaya.shortlink.admin.common.constant" />
       <recent name="com.yaya.shortlink.admin.dto.resp" />
     </key>
   </component>
