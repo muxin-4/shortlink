@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 用户敏感信息接口返回脱敏">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/shardingsphere-config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/test/java/test/UserTableShardingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/shardingsphere-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/shardingsphere-config.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,7 @@
       <workItem from="1720281683873" duration="258000" />
       <workItem from="1720282087149" duration="14229000" />
       <workItem from="1720799209706" duration="2142000" />
-      <workItem from="1720837648897" duration="2027000" />
+      <workItem from="1720837648897" duration="3051000" />
     </task>
     <servers />
   </component>
@@ -181,17 +176,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: 用户敏感信息接口返回脱敏" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: 用户敏感信息接口返回脱敏" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/serialize/PhoneDesensitizationSerializer.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
