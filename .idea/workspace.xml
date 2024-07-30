@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 用户敏感信息接口返回脱敏">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/dto/resp/ShortLInkGroupRespDTO.java" afterDir="false" />
+    <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 开发短链接后管系统用户登录时间修改为30天">
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserFlowRiskControlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/config/UserConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/config/UserFlowRiskControlConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/GroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/errorcode/BaseErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/convention/errorcode/BaseErrorCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/GroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/GroupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/common/convention/errorcode/BaseErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/common/convention/errorcode/BaseErrorCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +42,12 @@
     &quot;assignee&quot;: &quot;muxin-4&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/muxin-4/shortlink.git&quot;,
-    &quot;accountId&quot;: &quot;32a3b8c7-bee6-4288-8401-9ac1cd6b9ed2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/muxin-4/shortlink.git",
+    "accountId": "01e60aa4-54ec-4d96-bd55-66328caa1272"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -102,6 +104,8 @@
       <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yaya.shortlink.admin.config" />
+      <recent name="com.yaya.shortlink.admin.common.biz.user" />
       <recent name="com.yaya.shortlink.admin.dto.req" />
       <recent name="com.yaya.shortlink.admin.common.constant" />
       <recent name="com.yaya.shortlink.admin.dto.resp" />
@@ -164,8 +168,35 @@
       <workItem from="1720837648897" duration="22309000" />
       <workItem from="1721967400027" duration="19000" />
       <workItem from="1722001972296" duration="7167000" />
-      <workItem from="1722221661887" duration="13842000" />
+      <workItem from="1722221661887" duration="16024000" />
+      <workItem from="1722327264371" duration="6103000" />
+      <workItem from="1722345439414" duration="3735000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: 开发短链接后管系统用户登录时间修改为30天">
+      <option name="closed" value="true" />
+      <created>1722350823405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722350823405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 开发短链接后管系统用户登录时间修改为30天">
+      <option name="closed" value="true" />
+      <created>1722350860696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722350860696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 开发短链接后管系统用户登录时间修改为30天">
+      <option name="closed" value="true" />
+      <created>1722350868505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722350868505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +216,64 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: 用户敏感信息接口返回脱敏" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 用户敏感信息接口返回脱敏" />
+    <MESSAGE value="feat: 开发短链接后管系统用户登录时间修改为30天" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 开发短链接后管系统用户登录时间修改为30天" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserFlowRiskControlFilter.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserFlowRiskControlFilter.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserFlowRiskControlFilter.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserTransmitFilter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserTransmitFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/UserServiceImpl.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserTransmitFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/common/biz/user/UserTransmitFilter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
