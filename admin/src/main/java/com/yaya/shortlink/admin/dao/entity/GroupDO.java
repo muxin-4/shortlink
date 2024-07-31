@@ -4,8 +4,10 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.yaya.shortlink.admin.common.database.BaseDO;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * 短链接分组实体
@@ -13,6 +15,8 @@ import lombok.Data;
 @Data
 @TableName("t_group")
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class GroupDO extends BaseDO {
     private static final long serialVersionUID = 1L;
 

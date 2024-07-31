@@ -1,12 +1,14 @@
 package com.yaya.shortlink.admin.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yaya.shortlink.admin.common.biz.user.UserContext;
 import com.yaya.shortlink.admin.dao.entity.GroupDO;
 import com.yaya.shortlink.admin.dao.mapper.GroupMapper;
+import com.yaya.shortlink.admin.dto.req.ShortLInkGroupUpdateReqDto;
 import com.yaya.shortlink.admin.dto.resp.ShortLInkGroupRespDTO;
 import com.yaya.shortlink.admin.service.GroupService;
 import com.yaya.shortlink.admin.toolkit.RandomGenerator;
@@ -49,8 +51,20 @@ public class GroupServiceImpl extends ServiceImpl<GroupMapper, GroupDO> implemen
         return BeanUtil.copyToList(groupDOList, ShortLInkGroupRespDTO.class);
     }
 
+    @Override
+    public void updateGroup(ShortLInkGroupUpdateReqDto requestParam) {
+        Wrapper<GroupDO> updateWrapper = Wrappers.lambdaUpdate(GroupDO.class)
+                .eq(GroupDO::getUsername, UserContext.getUsername())
+                .eq(GroupDO::getGid, requestParam.getGid())
+                .eq(GroupDO::getDelFlag, 0);
+        GroupDO groupDO = new GroupDO();
+        groupDO.setName(requestParam.getName());
+        baseMapper.update(groupDO, updateWrapper);
+    }
+
     public boolean hasGid(String gid) {
-        LambdaQueryWrapper<GroupDO> queryWrapper = Wrappers.lambdaQuery(GroupDO.class).eq(GroupDO::getGid, gid)
+        LambdaQueryWrapper<GroupDO> queryWrapper = Wrappers.lambdaQuery(GroupDO.class)
+                .eq(GroupDO::getGid, gid)
                 .eq(GroupDO::getUsername, UserContext.getUsername());
         GroupDO hasGroupFlag = baseMapper.selectOne(queryWrapper);
         return hasGroupFlag == null;
