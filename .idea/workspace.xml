@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 开发短链接后管系统短链接分组绑定用户上下文">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/GroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/GroupService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/common/biz/user/UserTransmitFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/common/biz/user/UserTransmitFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/GroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/controller/GroupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/GroupService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/admin/target/classes/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +79,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ShortLinkAdminApllication.executor": "Debug",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/wangguanyu/wgy/3-java/shortlink/admin/src/test/java",
     "node.js.detected.package.eslint": "true",
@@ -167,7 +173,7 @@
       <workItem from="1722001972296" duration="7167000" />
       <workItem from="1722221661887" duration="16024000" />
       <workItem from="1722327264371" duration="6103000" />
-      <workItem from="1722345439414" duration="7819000" />
+      <workItem from="1722345439414" duration="9029000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 开发短链接后管系统用户登录时间修改为30天">
       <option name="closed" value="true" />
@@ -284,11 +290,6 @@
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java</url>
           <line>55</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/controller/GroupController.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
