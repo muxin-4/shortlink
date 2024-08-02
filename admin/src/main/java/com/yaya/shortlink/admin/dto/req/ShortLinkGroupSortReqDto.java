@@ -3,17 +3,17 @@ package com.yaya.shortlink.admin.dto.req;
 import lombok.Data;
 
 /**
- * 短链接分组修改参数
+ * 短链接分组排序参数
  */
 @Data
-public class ShortLinkGroupUpdateReqDto {
+public class ShortLinkGroupSortReqDto {
     /**
-     * 分组标识
+     * 分组ID
      */
     private String gid;
 
     /**
-     * 分组名
+     * 排序
      */
-    private String name;
+    private Integer sortOrder;
 }

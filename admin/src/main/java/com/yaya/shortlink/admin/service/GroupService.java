@@ -2,8 +2,9 @@ package com.yaya.shortlink.admin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yaya.shortlink.admin.dao.entity.GroupDO;
-import com.yaya.shortlink.admin.dto.req.ShortLInkGroupUpdateReqDto;
-import com.yaya.shortlink.admin.dto.resp.ShortLInkGroupRespDTO;
+import com.yaya.shortlink.admin.dto.req.ShortLinkGroupSortReqDto;
+import com.yaya.shortlink.admin.dto.req.ShortLinkGroupUpdateReqDto;
+import com.yaya.shortlink.admin.dto.resp.ShortLinkGroupRespDTO;
 
 import java.util.List;
 
@@ -24,14 +25,14 @@ public interface GroupService extends IService<GroupDO> {
      *
      * @return 用户短链接分组集合
      */
-    List<ShortLInkGroupRespDTO> listGroup();
+    List<ShortLinkGroupRespDTO> listGroup();
 
     /**
      * 修改短链接分组
      *
      * @param requestParam 短链接分组参数
      */
-    void updateGroup(ShortLInkGroupUpdateReqDto requestParam);
+    void updateGroup(ShortLinkGroupUpdateReqDto requestParam);
 
     /**
      * 删除短链接分组
@@ -39,4 +40,11 @@ public interface GroupService extends IService<GroupDO> {
      * @param gid 短链接分组标识
      */
     void deleteGroup(String gid);
+
+    /**
+     * 短连接分组排序
+     *
+     * @param requestParam 短连接分组排序参数
+     */
+    void sortGroup(List<ShortLinkGroupSortReqDto> requestParam);
 }
