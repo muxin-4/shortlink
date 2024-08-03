@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 开发短链接后管系统短链接分组绑定用户上下文">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 开发短链接后管系统短链接分组绑定用户上下文" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +36,12 @@
     &quot;assignee&quot;: &quot;muxin-4&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/muxin-4/shortlink.git",
-    "accountId": "32a3b8c7-bee6-4288-8401-9ac1cd6b9ed2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muxin-4/shortlink.git&quot;,
+    &quot;accountId&quot;: &quot;32a3b8c7-bee6-4288-8401-9ac1cd6b9ed2&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -282,7 +280,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java</url>
-          <line>55</line>
+          <line>57</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
