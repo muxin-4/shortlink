@@ -1,7 +1,7 @@
-package com.yaya.shorlink.project.service;
+package com.yaya.shortlink.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yaya.shorlink.project.dao.entity.ShortLinkDO;
+import com.yaya.shortlink.project.dao.entity.ShortLinkDO;
 
 /**
  * 短连接接口层

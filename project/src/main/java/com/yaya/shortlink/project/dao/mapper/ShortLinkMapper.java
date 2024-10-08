@@ -1,7 +1,7 @@
-package com.yaya.shorlink.project.dao.mapper;
+package com.yaya.shortlink.project.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yaya.shorlink.project.dao.entity.ShortLinkDO;
+import com.yaya.shortlink.project.dao.entity.ShortLinkDO;
 
 /**
  * 短连接持久层

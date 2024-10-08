@@ -1,4 +1,4 @@
-package com.yaya.shorlink.project.dao.entity;
+package com.yaya.shortlink.project.dao.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;

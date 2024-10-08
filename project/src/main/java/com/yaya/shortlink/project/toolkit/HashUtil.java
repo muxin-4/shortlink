@@ -1,4 +1,4 @@
-package com.yaya.shorlink.project.toolkit;
+package com.yaya.shortlink.project.toolkit;
 
 import cn.hutool.core.lang.hash.MurmurHash;
 
