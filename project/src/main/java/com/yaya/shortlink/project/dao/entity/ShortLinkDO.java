@@ -1,6 +1,8 @@
 package com.yaya.shortlink.project.dao.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.yaya.shortlink.project.common.database.BaseDO;
 import lombok.Data;
 
 import java.util.Date;
@@ -10,7 +12,7 @@ import java.util.Date;
  */
 @Data
 @TableName("t_link")
-public class ShortLinkDO {
+public class ShortLinkDO extends BaseDO {
     /**
      * id
      */
@@ -74,6 +76,7 @@ public class ShortLinkDO {
     /**
      * 描述
      */
+    @TableField("`describe`")
     private String describe;
 
     /**

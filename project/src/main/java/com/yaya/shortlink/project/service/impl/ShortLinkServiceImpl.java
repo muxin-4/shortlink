@@ -22,6 +22,8 @@ public class ShortLinkServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLink
     public ShortLinkCreateRespDTO createShortLink(ShortLinkCreateReqDTO requestParams) {
         String shortLinkSuffix = generateSuffix(requestParams);
         ShortLinkDO shortLinkDO = BeanUtil.toBean(requestParams, ShortLinkDO.class);
+        shortLinkDO.setShortUri(shortLinkSuffix);
+        shortLinkDO.setEnableStatus(0);
         shortLinkDO.setFullShortUrl(requestParams.getDomain() + "/" + shortLinkSuffix);
         baseMapper.insert(shortLinkDO);
         return ShortLinkCreateRespDTO.builder()

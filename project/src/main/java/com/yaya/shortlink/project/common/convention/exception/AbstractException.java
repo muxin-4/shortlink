@@ -1,6 +1,6 @@
-package com.yaya.shortlink.project.convention.exception;
+package com.yaya.shortlink.project.common.convention.exception;
 
-import com.yaya.shortlink.project.convention.errorcode.IErrorCode;
+import com.yaya.shortlink.project.common.convention.errorcode.IErrorCode;
 import lombok.Getter;
 import org.springframework.util.StringUtils;
 
