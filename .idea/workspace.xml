@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="381077f1-bce0-4724-ad62-563dfec207c8" name="Changes" comment="feat: 开发短链接后管系统短链接分组绑定用户上下文">
-      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/config/RBloomFilterConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/config/RBloomFilterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/config/RBloomFilterConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/service/impl/ShortLinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/service/impl/ShortLinkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/classes/com/yaya/shortlink/project/service/impl/ShortLinkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/classes/com/yaya/shortlink/project/service/impl/ShortLinkServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
     "Spring Boot.ShortLinkProjectApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wangguanyu/wgy/10_mygithub/shortlink/project/src/main/java/com/yaya/shortlink/project/common",
+    "last_opened_file_path": "/Users/wangguanyu/wgy/3-java/shortlink/project/src/main/java/com/yaya/shortlink/project/common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -305,6 +305,51 @@
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/yaya/shortlink/admin/service/impl/GroupServiceImpl.java</url>
           <line>57</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/service/impl/ShortLinkServiceImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/yaya/shortlink/project/common/web/GlobalExceptionHandler.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
