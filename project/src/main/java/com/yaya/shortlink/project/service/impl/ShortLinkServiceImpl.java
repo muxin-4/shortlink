@@ -2,7 +2,7 @@ package com.yaya.shortlink.project.service.impl;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yaya.shortlink.project.convention.exception.ServiceException;
+import com.yaya.shortlink.project.common.convention.exception.ServiceException;
 import com.yaya.shortlink.project.dao.entity.ShortLinkDO;
 import com.yaya.shortlink.project.dao.mapper.ShortLinkMapper;
 import com.yaya.shortlink.project.dto.req.ShortLinkCreateReqDTO;

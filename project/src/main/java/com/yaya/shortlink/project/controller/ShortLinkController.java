@@ -1,7 +1,7 @@
 package com.yaya.shortlink.project.controller;
 
-import com.yaya.shortlink.project.convention.result.Result;
-import com.yaya.shortlink.project.convention.result.Results;
+import com.yaya.shortlink.project.common.convention.result.Result;
+import com.yaya.shortlink.project.common.convention.result.Results;
 import com.yaya.shortlink.project.dto.req.ShortLinkCreateReqDTO;
 import com.yaya.shortlink.project.dto.res.ShortLinkCreateRespDTO;
 import com.yaya.shortlink.project.service.ShortLinkService;
