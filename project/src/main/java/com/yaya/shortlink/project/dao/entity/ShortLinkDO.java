@@ -3,7 +3,10 @@ package com.yaya.shortlink.project.dao.entity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.yaya.shortlink.project.common.database.BaseDO;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -11,12 +14,11 @@ import java.util.Date;
  * 短连接实体
  */
 @Data
+@Builder
 @TableName("t_link")
+@NoArgsConstructor
+@AllArgsConstructor
 public class ShortLinkDO extends BaseDO {
-    /**
-     * id
-     */
-    private Long id;
 
     /**
      * 域名
