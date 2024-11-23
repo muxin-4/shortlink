@@ -2,7 +2,9 @@ package com.yaya.shortlink.admin.common.enums;
 
 import com.yaya.shortlink.admin.common.convention.errorcode.IErrorCode;
 
-public enum UserErrorCodeEnum implements IErrorCode {
+public enum     UserErrorCodeEnum implements IErrorCode {
+
+    USER_TOKEN_FAIL("A000200","用户验证失败"),
 
     USER_NULL("B000200", "用户记录不存在"),
 
